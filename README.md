@@ -34,7 +34,7 @@ If you prefer to run it without Docker, you will need:
 ## Installation without Docker
 
 ```bash
-git clone https://github.com/project/repo.git
+git clone https://github.com/decaluwepatrick/laravel_alice_store.git
 cd repo
 composer install
 php artisan serve # start server
@@ -54,7 +54,7 @@ php artisan test  # start tests
 
 ### Recommendations
 - Co-occurrence matrix based on historical orders
-- Can be rebuild upon each purchase or via Artisan command
+- Can be rebuilt upon each purchase or via Artisan command
 - Recommends products based on cart contents
 
 ### Orders
@@ -102,7 +102,7 @@ storage/
 
 when outside docker:
 
-```docker-compose exec php artisan build-recommendation ```
+```docker-compose exec app php artisan build-recommendation ```
 
 ## Try it out with Postman
 
@@ -113,7 +113,38 @@ when outside docker:
 
 ## Possible Improvements
 
-- Authentication (customers/admin), rate limiting
-- Better and more scalable recommendation system (cosine similarity, Jaccard similarity)
+- Authentication (customers/admin)
+- Better and more scalable recommendation system than co-occurrence matrix (like Jaccard similarity)
 - Cache layer for faster recommendations
 - Admin UI for managing products, stock management, shipping etc.
+- API versioning, rate limiting
+
+## API endpoints:
+
+### Products
+
+| Method | Endpoint          | Description              |
+|--------|-------------------|--------------------------|
+| GET    | /api/products     | Retrieve all products    |
+
+---
+
+### Cart
+
+| Method | Endpoint                                  | Description                         |
+|--------|---------------------------------------------|-------------------------------------|
+| POST   | /api/cart                                   | Create a new cart (returns token)   |
+| GET    | /api/cart/{cart_token}                      | Retrieve cart with items            |
+| GET    | /api/cart/{cart_token}/recommendation       | Get product recommendations          |
+| POST   | /api/cart/{cart_token}                      | Add a product to the cart           |
+| DELETE | /api/cart/{cart_token}                      | Remove a product from the cart      |
+
+> All cart routes are protected by the `valid.cart` middleware.
+
+---
+
+### Orders
+
+| Method | Endpoint      | Description                      |
+|--------|---------------|----------------------------------|
+| POST   | /api/orders   | Create an order (checkout cart)  |
