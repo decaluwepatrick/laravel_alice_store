@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "name": "Tire",
+    "price": 323.32,
+    "description": "Description de Tire",
+    "category": "Automotive"
+  },
+  {
+    "id": 2,
+    "name": "Engine Oil",
+    "price": 22.26,
+    "description": "Description de Engine Oil",
+    "category": "Automotive"
+  },
+  {
+    "id": 3,
+    "name": "Brake Pad",
+    "price": 144.76,
+    "description": "Description de Brake Pad",
+    "category": "Automotive"
+  },
+  {
+    "id": 4,
+    "name": "Car Battery",
+    "price": 119.37,
+    "description": "Description de Car Battery",
+    "category": "Automotive"
+  },
+  {
+    "id": 5,
+    "name": "Headlight",
+    "price": 370.87,
+    "description": "Description de Headlight",
+    "category": "Automotive"
+  },
+  {
+    "id": 6,
+    "name": "Air Filter",
+    "price": 341.58,
+    "description": "Description de Air Filter",
+    "category": "Automotive"
+  },
+  {
+    "id": 7,
+    "name": "Car Wax",
+    "price": 447.17,
+    "description": "Description de Car Wax",
+    "category": "Automotive"
+  },
+  {
+    "id": 8,
+    "name": "Spark Plug",
+    "price": 52.6,
+    "description": "Description de Spark Plug",
+    "category": "Automotive"
+  },
+  {
+    "id": 9,
+    "name": "Windshield Wiper",
+    "price": 216.74,
+    "description": "Description de Windshield Wiper",
+    "category": "Automotive"
+  },
+  {
+    "id": 10,
+    "name": "Car Cover",
+    "price": 24.6,
+    "description": "Description de Car Cover",
+    "category": "Automotive"
+  },
+  {
+    "id": 11,
+    "name": "Novel",
+    "price": 117.13,
+    "description": "Description de Novel",
+    "category": "Books"
+  },
+  {
+    "id": 12,
+    "name": "Biography",
+    "price": 257.62,
+    "description": "Description de Biography",
+    "category": "Books"
+  },
+  {
+    "id": 13,
+    "name": "Science Fiction",
+    "price": 23.0,
+    "description": "Description de Science Fiction",
+    "category": "Books"
+  },
+  {
+    "id": 14,
+    "name": "Mystery",
+    "price": 107.43,
+    "description": "Description de Mystery",
+    "category": "Books"
+  },
+  {
+    "id": 15,
+    "name": "History",
+    "price": 328.44,
+    "description": "Description de History",
+    "category": "Books"
+  },
+  {
+    "id": 16,
+    "name": "Poetry",
+    "price": 277.02,
+    "description": "Description de Poetry",
+    "category": "Books"
+  },
+  {
+    "id": 17,
+    "name": "Self-help",
+    "price": 118.02,
+    "description": "Description de Self-help",
+    "category": "Books"
+  },
+  {
+    "id": 18,
+    "name": "Fantasy",
+    "price": 298.74,
+    "description": "Description de Fantasy",
+    "category": "Books"
+  },
+  {
+    "id": 19,
+    "name": "Comic Book",
+    "price": 406.62,
+    "description": "Description de Comic Book",
+    "category": "Books"
+  },
+  {
+    "id": 20,
+    "name": "Cookbook",
+    "price": 13.18,
+    "description": "Description de Cookbook",
+    "category": "Books"
+  },
+  {
+    "id": 21,
+    "name": "Smartphone",
+    "price": 404.85,
+    "description": "Description de Smartphone",
+    "category": "Electronics"
+  },
+  {
+    "id": 22,
+    "name": "Laptop",
+    "price": 352.09,
+    "description": "Description de Laptop",
+    "category": "Electronics"
+  },
+  {
+    "id": 23,
+    "name": "Tablet",
+    "price": 176.72,
+    "description": "Description de Tablet",
+    "category": "Electronics"
+  },
+  {
+    "id": 24,
+    "name": "Headphones",
+    "price": 86.18,
+    "description": "Description de Headphones",
+    "category": "Electronics"
+  },
+  {
+    "id": 25,
+    "name": "Smartwatch",
+    "price": 479.03,
+    "description": "Description de Smartwatch",
+    "category": "Electronics"
+  },
+  {
+    "id": 26,
+    "name": "Camera",
+    "price": 174.93,
+    "description": "Description de Camera",
+    "category": "Electronics"
+  },
+  {
+    "id": 27,
+    "name": "Drone",
+    "price": 55.45,
+    "description": "Description de Drone",
+    "category": "Electronics"
+  },
+  {
+    "id": 28,
+    "name": "Speaker",
+    "price": 57.39,
+    "description": "Description de Speaker",
+    "category": "Electronics"
+  },
+  {
+    "id": 29,
+    "name": "Monitor",
+    "price": 425.27,
+    "description": "Description de Monitor",
+    "category": "Electronics"
+  },
+  {
+    "id": 30,
+    "name": "Keyboard",
+    "price": 305.83,
+    "description": "Description de Keyboard",
+    "category": "Electronics"
+  },
+  {
+    "id": 31,
+    "name": "T-Shirt",
+    "price": 405.49,
+    "description": "Description de T-Shirt",
+    "category": "Fashion"
+  },
+  {
+    "id": 32,
+    "name": "Jeans",
+    "price": 367.57,
+    "description": "Description de Jeans",
+    "category": "Fashion"
+  },
+  {
+    "id": 33,
+    "name": "Sneakers",
+    "price": 272.75,
+    "description": "Description de Sneakers",
+    "category": "Fashion"
+  },
+  {
+    "id": 34,
+    "name": "Jacket",
+    "price": 486.83,
+    "description": "Description de Jacket",
+    "category": "Fashion"
+  },
+  {
+    "id": 35,
+    "name": "Dress",
+    "price": 195.48,
+    "description": "Description de Dress",
+    "category": "Fashion"
+  },
+  {
+    "id": 36,
+    "name": "Hat",
+    "price": 280.5,
+    "description": "Description de Hat",
+    "category": "Fashion"
+  },
+  {
+    "id": 37,
+    "name": "Sunglasses",
+    "price": 416.41,
+    "description": "Description de Sunglasses",
+    "category": "Fashion"
+  },
+  {
+    "id": 38,
+    "name": "Scarf",
+    "price": 313.07,
+    "description": "Description de Scarf",
+    "category": "Fashion"
+  },
+  {
+    "id": 39,
+    "name": "Belt",
+    "price": 432.24,
+    "description": "Description de Belt",
+    "category": "Fashion"
+  },
+  {
+    "id": 40,
+    "name": "Wristwatch",
+    "price": 292.9,
+    "description": "Description de Wristwatch",
+    "category": "Fashion"
+  },
+  {
+    "id": 41,
+    "name": "Sofa",
+    "price": 355.24,
+    "description": "Description de Sofa",
+    "category": "Home"
+  },
+  {
+    "id": 42,
+    "name": "Dining Table",
+    "price": 32.45,
+    "description": "Description de Dining Table",
+    "category": "Home"
+  },
+  {
+    "id": 43,
+    "name": "Chair",
+    "price": 121.67,
+    "description": "Description de Chair",
+    "category": "Home"
+  },
+  {
+    "id": 44,
+    "name": "Bed",
+    "price": 151.8,
+    "description": "Description de Bed",
+    "category": "Home"
+  },
+  {
+    "id": 45,
+    "name": "Lamp",
+    "price": 49.1,
+    "description": "Description de Lamp",
+    "category": "Home"
+  },
+  {
+    "id": 46,
+    "name": "Carpet",
+    "price": 124.07,
+    "description": "Description de Carpet",
+    "category": "Home"
+  },
+  {
+    "id": 47,
+    "name": "Bookshelf",
+    "price": 59.49,
+    "description": "Description de Bookshelf",
+    "category": "Home"
+  },
+  {
+    "id": 48,
+    "name": "Wardrobe",
+    "price": 146.21,
+    "description": "Description de Wardrobe",
+    "category": "Home"
+  },
+  {
+    "id": 49,
+    "name": "Desk",
+    "price": 321.49,
+    "description": "Description de Desk",
+    "category": "Home"
+  },
+  {
+    "id": 50,
+    "name": "Curtains",
+    "price": 188.77,
+    "description": "Description de Curtains",
+    "category": "Home"
+  },
+  {
+    "id": 51,
+    "name": "Football",
+    "price": 191.39,
+    "description": "Description de Football",
+    "category": "Sports"
+  },
+  {
+    "id": 52,
+    "name": "Basketball",
+    "price": 112.66,
+    "description": "Description de Basketball",
+    "category": "Sports"
+  },
+  {
+    "id": 53,
+    "name": "Tennis Racket",
+    "price": 140.82,
+    "description": "Description de Tennis Racket",
+    "category": "Sports"
+  },
+  {
+    "id": 54,
+    "name": "Running Shoes",
+    "price": 468.96,
+    "description": "Description de Running Shoes",
+    "category": "Sports"
+  },
+  {
+    "id": 55,
+    "name": "Cycling Helmet",
+    "price": 327.54,
+    "description": "Description de Cycling Helmet",
+    "category": "Sports"
+  },
+  {
+    "id": 56,
+    "name": "Yoga Mat",
+    "price": 308.47,
+    "description": "Description de Yoga Mat",
+    "category": "Sports"
+  },
+  {
+    "id": 57,
+    "name": "Golf Clubs",
+    "price": 93.86,
+    "description": "Description de Golf Clubs",
+    "category": "Sports"
+  },
+  {
+    "id": 58,
+    "name": "Baseball Glove",
+    "price": 367.27,
+    "description": "Description de Baseball Glove",
+    "category": "Sports"
+  },
+  {
+    "id": 59,
+    "name": "Skateboard",
+    "price": 90.07,
+    "description": "Description de Skateboard",
+    "category": "Sports"
+  },
+  {
+    "id": 60,
+    "name": "Swimming Goggles",
+    "price": 195.93,
+    "description": "Description de Swimming Goggles",
+    "category": "Sports"
+  },
+  {
+    "id": 61,
+    "name": "Action Figure",
+    "price": 494.87,
+    "description": "Description de Action Figure",
+    "category": "Toys"
+  },
+  {
+    "id": 62,
+    "name": "Puzzle",
+    "price": 323.6,
+    "description": "Description de Puzzle",
+    "category": "Toys"
+  },
+  {
+    "id": 63,
+    "name": "Board Game",
+    "price": 282.91,
+    "description": "Description de Board Game",
+    "category": "Toys"
+  },
+  {
+    "id": 64,
+    "name": "Doll",
+    "price": 345.46,
+    "description": "Description de Doll",
+    "category": "Toys"
+  },
+  {
+    "id": 65,
+    "name": "RC Car",
+    "price": 423.0,
+    "description": "Description de RC Car",
+    "category": "Toys"
+  },
+  {
+    "id": 66,
+    "name": "Lego Set",
+    "price": 390.24,
+    "description": "Description de Lego Set",
+    "category": "Toys"
+  },
+  {
+    "id": 67,
+    "name": "Plush Toy",
+    "price": 122.23,
+    "description": "Description de Plush Toy",
+    "category": "Toys"
+  },
+  {
+    "id": 68,
+    "name": "Toy Train",
+    "price": 25.73,
+    "description": "Description de Toy Train",
+    "category": "Toys"
+  },
+  {
+    "id": 69,
+    "name": "Kite",
+    "price": 164.57,
+    "description": "Description de Kite",
+    "category": "Toys"
+  },
+  {
+    "id": 70,
+    "name": "Remote Control Helicopter",
+    "price": 141.19,
+    "description": "Description de Remote Control Helicopter",
+    "category": "Toys"
+  },
+  {
+    "id": 71,
+    "name": "Lawn Mower",
+    "price": 113.38,
+    "description": "Description de Lawn Mower",
+    "category": "Garden"
+  },
+  {
+    "id": 72,
+    "name": "Garden Hose",
+    "price": 472.03,
+    "description": "Description de Garden Hose",
+    "category": "Garden"
+  },
+  {
+    "id": 73,
+    "name": "Fertilizer",
+    "price": 439.42,
+    "description": "Description de Fertilizer",
+    "category": "Garden"
+  },
+  {
+    "id": 74,
+    "name": "Plant Pot",
+    "price": 164.19,
+    "description": "Description de Plant Pot",
+    "category": "Garden"
+  },
+  {
+    "id": 75,
+    "name": "Pruning Shears",
+    "price": 331.16,
+    "description": "Description de Pruning Shears",
+    "category": "Garden"
+  },
+  {
+    "id": 76,
+    "name": "Rake",
+    "price": 203.86,
+    "description": "Description de Rake",
+    "category": "Garden"
+  },
+  {
+    "id": 77,
+    "name": "Shovel",
+    "price": 458.13,
+    "description": "Description de Shovel",
+    "category": "Garden"
+  },
+  {
+    "id": 78,
+    "name": "Hedge Trimmer",
+    "price": 234.84,
+    "description": "Description de Hedge Trimmer",
+    "category": "Garden"
+  },
+  {
+    "id": 79,
+    "name": "Watering Can",
+    "price": 139.79,
+    "description": "Description de Watering Can",
+    "category": "Garden"
+  },
+  {
+    "id": 80,
+    "name": "Garden Gloves",
+    "price": 130.85,
+    "description": "Description de Garden Gloves",
+    "category": "Garden"
+  },
+  {
+    "id": 81,
+    "name": "Vitamins",
+    "price": 285.07,
+    "description": "Description de Vitamins",
+    "category": "Health"
+  },
+  {
+    "id": 82,
+    "name": "Protein Powder",
+    "price": 138.74,
+    "description": "Description de Protein Powder",
+    "category": "Health"
+  },
+  {
+    "id": 83,
+    "name": "Fitness Tracker",
+    "price": 296.45,
+    "description": "Description de Fitness Tracker",
+    "category": "Health"
+  },
+  {
+    "id": 84,
+    "name": "Massage Roller",
+    "price": 449.93,
+    "description": "Description de Massage Roller",
+    "category": "Health"
+  },
+  {
+    "id": 85,
+    "name": "Blood Pressure Monitor",
+    "price": 205.71,
+    "description": "Description de Blood Pressure Monitor",
+    "category": "Health"
+  },
+  {
+    "id": 86,
+    "name": "Thermometer",
+    "price": 117.47,
+    "description": "Description de Thermometer",
+    "category": "Health"
+  },
+  {
+    "id": 87,
+    "name": "First Aid Kit",
+    "price": 498.79,
+    "description": "Description de First Aid Kit",
+    "category": "Health"
+  },
+  {
+    "id": 88,
+    "name": "Air Purifier",
+    "price": 259.67,
+    "description": "Description de Air Purifier",
+    "category": "Health"
+  },
+  {
+    "id": 89,
+    "name": "Treadmill",
+    "price": 54.55,
+    "description": "Description de Treadmill",
+    "category": "Health"
+  },
+  {
+    "id": 90,
+    "name": "Yoga Ball",
+    "price": 33.09,
+    "description": "Description de Yoga Ball",
+    "category": "Health"
+  },
+  {
+    "id": 91,
+    "name": "Guitar",
+    "price": 63.73,
+    "description": "Description de Guitar",
+    "category": "Music"
+  },
+  {
+    "id": 92,
+    "name": "Piano",
+    "price": 317.45,
+    "description": "Description de Piano",
+    "category": "Music"
+  },
+  {
+    "id": 93,
+    "name": "Drum Set",
+    "price": 398.12,
+    "description": "Description de Drum Set",
+    "category": "Music"
+  },
+  {
+    "id": 94,
+    "name": "Microphone",
+    "price": 216.86,
+    "description": "Description de Microphone",
+    "category": "Music"
+  },
+  {
+    "id": 95,
+    "name": "Violin",
+    "price": 41.13,
+    "description": "Description de Violin",
+    "category": "Music"
+  },
+  {
+    "id": 96,
+    "name": "Saxophone",
+    "price": 196.99,
+    "description": "Description de Saxophone",
+    "category": "Music"
+  },
+  {
+    "id": 97,
+    "name": "Trumpet",
+    "price": 498.1,
+    "description": "Description de Trumpet",
+    "category": "Music"
+  },
+  {
+    "id": 98,
+    "name": "Bass Guitar",
+    "price": 269.27,
+    "description": "Description de Bass Guitar",
+    "category": "Music"
+  },
+  {
+    "id": 99,
+    "name": "Keyboard",
+    "price": 485.83,
+    "description": "Description de Keyboard",
+    "category": "Music"
+  },
+  {
+    "id": 100,
+    "name": "Flute",
+    "price": 431.78,
+    "description": "Description de Flute",
+    "category": "Music"
+  }
+]

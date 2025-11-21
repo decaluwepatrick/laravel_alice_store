@@ -1,0 +1,15 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8000:80"  # map host 8000 → container 80
+    volumes:
+      - .:/var/www/html
+
+  test:
+    build: .
+    volumes:
+      - .:/var/www/html
+    command: php artisan test
+    environment:
+      - APP_ENV=testing
